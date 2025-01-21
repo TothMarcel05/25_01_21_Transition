@@ -1,0 +1,14 @@
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transition-property: background-color;
+
+    /* specifies the duration for transition to complete */
+    transition-duration: 1s;
+}
+
+/* styles while hovering element*/
+.box:hover {
+    background-color: red;
+}
